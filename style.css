@@ -135,28 +135,60 @@ p{
     border-radius: 30px;
 }
 
-.control{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 150px;
-}
-
-.control .line {
-    width: 250px;
-    height: 4px;
+.button{
+    width: 32%;
+    height: 44px;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color:  #00986f; 
+    border-radius: 20px;
     background-color: #fff;
-    margin: 0 20px;
-    border-radius: 2px;
 }
 
-.control .line span {
-    width: 50%;
-    height: 6px;
-    margin-top: -2px;
-    border-radius: 4px;
-    background-color: #00986f;
-    display: block;
+.boxes-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: first-start;
+    padding: 10px;
+    width: 170px;
+    height: 130px;
+    background-color: #7e817352;
+    border: 3px solid  #00986f ;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; */
+}
+
+.box:hover {
+    transform: scale(1.05); 
+}
+
+.box h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 25%;
+    margin: 0;
+}
+.box p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .active{
@@ -194,10 +226,10 @@ p{
     .text-container{
         width: 90%;
         margin-left: 5%;
-        margin-top: 40vh;
+        margin-top: 42vh;
     }
     .text-container h1{
-        font-size: 45px;
+        font-size: 35px;
         font-weight: bold;
     }
     .text-container p{
