@@ -233,7 +233,7 @@ p{
         font-weight: bold;
     }
     .text-container p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     nav .logo{
@@ -251,5 +251,20 @@ p{
     }
     .text-container h1 ::after{
         width: 70% ;
+    }
+    .boxes-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 8px;
+    }
+    .button{
+    font-size: 14px;
+    width: 40%;
+    font-weight: 600;
+    margin-left: 0;
+    position: relative;
+    left: 0;
     }
 }
