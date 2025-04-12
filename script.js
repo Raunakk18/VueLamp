@@ -10,4 +10,8 @@ const button = document.getElementById("button");
 
 button.addEventListener("click" , ()=>{
     boxesConainer.style.display = "flex";
+    setTimeout( ()=>{
+        boxesConainer.style.opacity = "1";
+        AOS.init();
+    },3000)
 })

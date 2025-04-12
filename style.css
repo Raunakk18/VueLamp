@@ -206,7 +206,7 @@ p{
 
 @media only screen and (max-width: 768px){
     .hero{
-        min-height: 100vh;
+        min-height: 144vh;
         overflow: hidden  ;
     }
     nav{
@@ -258,6 +258,7 @@ p{
     }
     .box{
         margin-top: 8px;
+        width: 190px;
     }
     .button{
     font-size: 14px;
