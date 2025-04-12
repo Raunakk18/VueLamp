@@ -12,6 +12,6 @@ button.addEventListener("click" , ()=>{
     boxesConainer.style.display = "flex";
     setTimeout( ()=>{
         boxesConainer.style.opacity = "1";
-        AOS.init();
+        AOS.refresh();
     },3000)
 })

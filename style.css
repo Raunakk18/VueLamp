@@ -151,11 +151,14 @@ p{
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    
+    /* opacity: ; */
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease; 
 }
-
+/* .boxes-container.show{
+    opacity: 1;
+    transform: translateY(0);
+} */
 .box{
     display: flex;
     flex-direction: column;
